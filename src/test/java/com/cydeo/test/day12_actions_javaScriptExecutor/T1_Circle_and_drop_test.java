@@ -1,4 +1,4 @@
-package com.cydeo.test.day13_pom_explicitwait.day12_actions_javaScriptExecutor;
+package com.cydeo.test.day12_actions_javaScriptExecutor;
 import com.cydeo.test.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -19,10 +19,10 @@ public class T1_Circle_and_drop_test {
         Actions actions = new Actions(Driver.getDriver());
 
         //actions.clickAndHold(circle).moveToElement(areaToDrop).release().perform();
-        while (true) {
+        //while (true) {
             actions.dragAndDrop(circle, areaToDrop).perform();
             String expected = "You did great!";
-        }
-        //AssertEquals(areaToDrop.getText(), expected, areaToDrop.getText());
+        //}
+        org.testng.Assert.assertEquals(areaToDrop.getText(), expected, areaToDrop.getText());
     }
 }

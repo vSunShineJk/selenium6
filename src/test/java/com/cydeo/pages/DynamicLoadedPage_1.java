@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class DynamicLoadedPage_1 {
 
     public DynamicLoadedPage_1(){
-        PageFactory.initElements(Driver.getDriver(),this);
+
     }
 
     @FindBy(xpath = "//div[@id='start']")

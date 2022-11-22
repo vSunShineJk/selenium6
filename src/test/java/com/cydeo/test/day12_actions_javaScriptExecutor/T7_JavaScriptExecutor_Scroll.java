@@ -1,4 +1,4 @@
-package com.cydeo.test.day13_pom_explicitwait.day12_actions_javaScriptExecutor;
+package com.cydeo.test.day12_actions_javaScriptExecutor;
 import com.cydeo.test.utilities.BrowserUtils;
 import com.cydeo.test.utilities.ConfigurationReader;
 import com.cydeo.test.utilities.Driver;
